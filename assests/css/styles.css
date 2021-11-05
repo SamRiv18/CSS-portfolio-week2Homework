@@ -1,4 +1,48 @@
-header{
+.header{
+    padding: 20px;
+    padding-left: 0px;
+    padding-top: 30px;
+    background-color: gray;
     
 }
 
+/* creates a box around Samuel Riveros */
+.header #name{
+    padding: 10px;
+    padding-left: 70px;
+    background-color: aqua;
+    display: inline;
+    color: grey;
+}
+
+/* shifts the class navigation along with its contents to the right */
+.header .navigation{
+    float: right;
+    text-align: center;
+    padding: 10px;
+}
+
+/* displays the list of navigation horizotally rather than vertically and modifies font */
+.header .navigation li, .navigation a{
+    display: inline;
+    color: aqua;
+}
+
+/* code used to display hero image on the site */
+.hero_image{
+    height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url("../images/hero_image.jpg");
+}
+
+#greeting_card, .hero_image p, .hero_image h2{
+    text-align: right;
+    float: right;
+    padding: 10px;
+    background-color: aqua;
+    display: inline;
+    color: grey
+}
