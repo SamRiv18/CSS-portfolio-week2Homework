@@ -38,11 +38,57 @@
     background-image: url("../images/hero_image.jpg");
 }
 
-#greeting_card, .hero_image p, .hero_image h2{
-    text-align: right;
-    float: right;
-    padding: 10px;
+/* used to place text on the bottom right of the image */
+.intro_me{
+    width: 360px;
+    height: 55px;
+    border: 1px solid;
+    box-sizing:border-box;
     background-color: aqua;
-    display: inline;
-    color: grey
+    color: gray;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+   
 }
+
+/* .title_card{
+    width: 360px;
+    height: 55px;
+    border: 1px solid;
+    box-sizing:border-box;  
+} */
+
+.title_card{
+    width: 10%;
+    height: 100px;
+    float: left;
+    background-color: red;
+    text-align: right;
+    padding-right: 20px;
+    
+}
+
+p{
+    width: 90%;
+    height: 100px;
+    float: right;
+    border-left: 10px solid navy;
+    align-items: center;
+    
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,5vw);
+    grid-gap: 5px;
+}
+
+.surf_images_item1, .led_wall_item2, .calculator_itme3, .pastel_item4, .run_item5{
+    width: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
