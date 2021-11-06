@@ -78,17 +78,67 @@ p{
     
 }
 
-.gallery{
-    display: grid;
-    grid-template-columns: repeat(8,1fr);
-    grid-template-rows: repeat(8,5vw);
-    grid-gap: 5px;
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 20px 50px;
+    align-items: center;
 }
 
-.surf_images_item1, .led_wall_item2, .calculator_itme3, .pastel_item4, .run_item5{
-    width: 100%;
+.gallery{
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,10vw);
+    grid-gap: 2px; */
+    /* background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px */
+}
+
+/* .surf_images_item1,.led_wall_item2,.calculator_item3,.pastel_item4,.run_item5{
+    height: 100%;
     width: 100%;
     object-fit: cover;
+    border: solid 2px yellow;
     
 }
 
+.surf_images_item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    position: relative;
+}
+
+.led_wall_item2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    position: relative;
+}
+
+.calculator_item3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    position: relative;
+}
+.pastel_item4{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    position: relative;
+}
+.run_item5{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    position: relative;
+} */
