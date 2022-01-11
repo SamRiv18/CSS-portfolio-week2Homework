@@ -9,6 +9,8 @@ body{
     padding-left: 0px;
     padding-top: 30px;
     background-color: #990011FF;
+    flex-wrap: wrap;
+    display: wrap;
     
 }
 
@@ -33,7 +35,7 @@ body{
     display: inline;
     color: #FCF6F5FF;;
     font-size: 25px;
-    padding-right: 15px;
+    padding-right: 15px;   
 }
 
 /* code used to display hero image on the site */
@@ -103,6 +105,9 @@ body{
 .gallery{
     width: 70%;
     margin: 30px 0;
+    display: flex;
+    flex: 1 0 auto;
+    flex-flow: row wrap;
 }
 
 /* sets the grid used to display the pictures */
@@ -200,5 +205,86 @@ footer{
     padding-top: 30px;
     background-color: #990011FF;
     color: #FCF6F5FF;
-    margin-top: 195px;
+    flex: 1 0 auto;
+}
+
+main{
+    min-height: 70vh;
+    width: 100%;
+    max-width: 4200px;
+    margin:0 auto;  
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 300px;
+}
+
+.content{
+    flex: 1 0 auto;
+}
+
+/* media query */
+
+/* addapts left padding to the titles when screen goes bellow 1700px */
+@media screen and (max-width: 1700px){
+    .title_card{
+        padding-left: 10px;
+    }
+}
+
+/* changes layout for tablet displays */
+@media screen and (max-width: 1200px){
+    .title_card{
+        flex: 1 100%;
+        border: none;
+        border-bottom: solid 8px #990011FF;
+        text-align: center;
+    }
+    .contact_me{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    h2{
+        font-size: large;
+    }
+
+    .intro_me{
+        width: auto;
+        height: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* changes layout for phone displays */
+@media screen and (max-width: 890px){
+    .header{
+        
+        padding-bottom: 20px;
+        justify-content: center;
+        position: relative;
+    }
+
+    .header #name{
+        padding-bottom: 5px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .header .navigation{
+        margin-left: 100px;
+        float: inherit;
+        justify-content: center;
+    }
+
+    .content p, .content a{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .content p, .content a{
+        font-size: 15px;
+    }
 }
