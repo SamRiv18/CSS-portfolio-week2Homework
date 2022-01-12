@@ -10,3 +10,4 @@ Each image on the webpage links you to the respective project when clicked upon.
 ## ScreenShot
 ![portfolio screenshot](/assests/images/portfolio_screenshot.JPG)
 ## Link to Deployed Application
+https://samriv18.github.io/SamRiv18.CSS-portfolio-week2Homework/

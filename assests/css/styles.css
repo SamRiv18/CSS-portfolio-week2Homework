@@ -150,24 +150,24 @@ body{
 .assigment_1 {
     border: solid #990011FF;
     height: 410px;
-    background-image: url(/assests/images/led_wall.jpg);
+    background-image: url(assests/images/led_wall.jpg);
     opacity: 0.5;
 }
 
 .assigment_2 {
-    background-image: url(/assests/images/calculator.jpg);
+    background-image: url(assests/images/calculator.jpg);
     border: solid #990011FF;
     opacity: 0.5;
 }
 
 .assigment_3 {
-    background-image: url(/assests/images/pastel_puzzels.jpg);
+    background-image: url(assests/images/pastel_puzzels.jpg);
     border: solid #990011FF;
     opacity: 0.5;
 }
 
 .assigment_4 {
-    background-image: url(/assests/images/Run_Buddy.jpg);
+    background-image: url(assests/images/Run_Buddy.jpg);
     border: solid #990011FF;
     opacity: 0.5;
 }
